@@ -1,0 +1,408 @@
+.nav {
+
+  color: white;
+
+}
+
+.lol {
+  /* background-color: rgb(40, 136, 40); */
+  background-color: rgb(43, 2, 56);
+  color: white;
+
+
+}
+.header-links{
+  color:  rgb(129, 12, 168);
+  font-weight: 600;
+}
+
+#nab {
+  color: white;
+  text-decoration: none;
+}
+
+#bul {
+  justify-content: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+  text-align: start;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.put {
+  text-align: start;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.vot {
+  text-decoration: none;
+  color: rgb(8, 8, 8);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.item {
+  text-align: start;
+}
+
+.jut {
+  background-color: rgb(208, 232, 241);
+  color: rgb(77, 168, 77);
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  border-width: 40px;
+
+}
+
+.menu {
+  background-color: rgb(207, 200, 209);
+  width: 300px;
+  height: 140px;
+  border-radius: 6px;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 25px;
+  /* height: 130px;
+width: 300px; */
+
+}
+
+
+.bold {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(152, 87, 173);
+
+}
+
+#zani {
+  /* color: rgb(152, 87, 173); */
+  margin-right: 30px !important;
+
+
+
+}
+
+.rut {
+  /* position: relative;
+position: absolute; */
+  /* right: -800px; */
+  /* margin-top: 15px; */
+  box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.full {
+  margin-right: 30px;
+}
+
+.zan {
+  display: inline;
+}
+
+.eat {
+  text-align: start;
+}
+
+.wot {
+  width: 400px !important;
+  height: 200px !important;
+}
+
+/* .qut {
+  box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.2);
+  width: 50px;
+} */
+
+.help {
+  padding-left: 10px;
+  color: rgb(14, 11, 11);
+}
+
+
+
+
+
+
+.dropdown {
+text-align: start;
+flex-direction: row;
+display: flex;
+}
+
+
+
+@media(max-with:992){
+  .dropdown{
+display: inline;
+  
+ 
+  }
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  border: none ;
+  /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);  */
+  z-index: 1;
+
+
+  /* margin-right: 500px !important; */
+}
+
+@media(max-width:991px) {
+  .dropdown-menu{
+    display: inline;
+    /* flex-direction: column; */
+    display: flex none;
+    flex-direction: column;
+    background: none;
+    /* width: 390px; */
+   
+  }
+  .text{
+    width: 100%;
+  }
+}
+
+@media(max-width:450px){
+  .dropdown-menu{
+width: 350px;
+/* margin-right: 60px; */
+  }
+  
+  }
+ 
+
+
+
+
+
+.dropdown-content a {
+  color: black;
+  /* padding: 12px 16px; */
+  text-decoration: none;
+  display: block;
+}
+
+/* .dropdown-content a:hover {
+  background-color: rgb(161, 145, 145);
+} */
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+
+#fill {
+  padding-top: 40px;
+}
+
+#fall {
+  padding-top: 42px;
+}
+
+#kol {
+  padding-top: 33px;
+
+}
+
+.dur {
+  color: rgb(159, 104, 211);
+
+
+}
+
+.coll {
+  border: none;
+}
+
+.pit {
+  background-color: rgb(236, 234, 234);
+  /* height: 80px; */
+}
+
+.hunt {
+  width: 350px;
+  text-align: start;
+}
+
+
+
+.hide {
+  display: none;
+
+}
+
+.myDIV:hover+.hide {
+  display: block;
+
+
+}
+
+.haan:hover {
+  background-color: gray;
+  color: rgb(255, 255, 255);
+}
+
+.hun {
+  color: rgb(104, 172, 104);
+}
+
+#ruk:hover {
+  background-color: rgb(193, 130, 212);
+}
+
+/* .foot{
+/* margin-left: 80px;
+} */
+/* .trt{
+height: 50px;
+} */
+
+/* @media(min-width:992px) {
+.dropdown-content{
+width: ;
+}
+} */
+
+
+/* @media(max-width:991px) {
+  .group {
+    display: inline;
+
+  }
+} */
+
+/* @media(max-width:991px) {
+  .meda {
+    display: flex none;
+    flex-direction: column;
+    background: none;
+    width: 390px;
+    /* display: flexbox; */
+
+/* 
+  }
+} */ 
+
+
+.dropdown {
+  display: flex;
+
+
+}
+
+.btn {
+  background-color: rgb(222, 251, 222);
+  color: green;
+  border: none;
+  width: 120px;
+  height: 50px;
+
+}
+
+.gol {
+  text-align: start;
+}
+
+.correct{
+    display: flex;
+        }
+
+/* @media(max-width:991px){
+    .correct{
+display: flex none;
+flex-direction: column;
+    }
+} */
+/* .header-links{
+ 
+color: rgb(62, 58, 58);
+margin-right: 860px;
+}  */
+/* .link{
+  color: black;
+}
+/* Dropdown Button */
+/* .dropbtn {
+
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+} */
+
+/* The container <div> - needed to position the dropdown content */
+/* .dropdown {
+  position: relative;
+  display: inline-block;
+} */
+
+/* Dropdown Content (Hidden by Default) */
+/* .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+} */
+
+/* Links inside the dropdown */
+/* .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+} */
+
+/* Change color of dropdown links on hover */
+/* .dropdown-content a:hover {background-color: rgb(17, 15, 15);} */
+
+/* Show the dropdown menu on hover */
+/* .dropdown:hover .dropdown-content {display: block;} */
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown:hover .dropbtn {background-color: #090c09;} */
+/* 
+.gud{
+  color: black;
+} */
+li{
+  list-style: none;
+}
+.res-bg{
+  /* border: none; */
+  border: 1px solid rgb(151, 143, 143);
+  border-radius: 8px;
+  /* background-color: #ffffff; */
+  padding-top: 35px;
+  padding-bottom: 20px;
+  width: 300px;
+  height: 200px;
+margin-top: 40px;
+  display: none;
+
+  
+}
+@media(max-width:450px){
+  #lin{
+    width: 200px;
+  }
+}
+@media(max-width:450px){
+  .new{
+width: 350px;
+  }
+}
+.nav_item:hover .dropdown_icon{
+  transform:rotate(180deg);
+  transition:all 0.3s ease;
+}
+
